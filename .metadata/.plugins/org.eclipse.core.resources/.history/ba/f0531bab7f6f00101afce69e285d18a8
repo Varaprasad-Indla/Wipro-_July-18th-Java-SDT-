@@ -1,0 +1,15 @@
+package MutliThreading;
+
+public class ThreadRunnableChildClass {
+
+	public static void main(String[] args) {
+		int n = 10;
+		
+		for (int i = 1; i< n;i++);
+		
+		Thread Object = new Thread(new ThreadUsingRunnableInterface());
+		
+		Object.start();
+	}
+
+}

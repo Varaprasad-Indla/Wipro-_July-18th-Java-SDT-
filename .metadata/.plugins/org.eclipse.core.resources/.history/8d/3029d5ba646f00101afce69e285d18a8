@@ -1,0 +1,10 @@
+package MutliThreading;
+
+public class Restaurent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

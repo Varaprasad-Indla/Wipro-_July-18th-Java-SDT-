@@ -1,0 +1,27 @@
+package LabSession02;
+
+import java.util.Arrays;
+
+public class SimpleSort {
+
+	public static void main(String[] args) {
+        int[] a1 = {5, 2, 9};
+        int[] a2 = {8, 1, 3};
+
+        
+        Thread t1 = new Thread(() -> {
+            Arrays.sort(a1);
+            System.out.println("Sorted arr1: " + Arrays.toString(a1));
+        });
+
+        
+        Thread t2 = new Thread(() -> {
+            Arrays.sort(a2);
+            System.out.println("Sorted arr2: " + Arrays.toString(a2));
+        });
+
+        t1.start();
+        t2.start();
+    }
+}
+

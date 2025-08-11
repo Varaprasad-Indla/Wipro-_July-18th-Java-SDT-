@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 0 elements to &apos;Labsession24.Student.java&apos;&#x0D;&#x0A;- Destination element: &apos;Labsession24.Student.java&apos;" description="Copy compilation units" destination="=corejava12025/src&lt;Labsession24{Student.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1754653446472" units="0" version="1.0"/>
+</session>
